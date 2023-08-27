@@ -1,0 +1,13 @@
+{
+  "name": "csv-addition-grouping",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js test.csv",
+    "group": "node index.js"
+  },
+  "author": "Jining Liu",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cli-select": "^1.1.2"
+  }
+}
