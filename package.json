@@ -7,6 +7,7 @@
     "group": "node group.js"
   },
   "author": "Jining Liu",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^5.3.0",
     "cli-select": "^1.1.2",
