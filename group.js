@@ -85,7 +85,7 @@ const __dirname = path.dirname(__filename);
                         await fs.mkdir(newDir);
                         await fs.writeFile(path.join(newDir, 'original.csv'), data, 'utf8');
                         await fs.writeFile(path.join(newDir, 'result.csv'), output, 'utf8');
-                        await fs.writeFile(path.join(newDir, 'copiable.csv'), copiable, 'utf8');
+                        await fs.writeFile(path.join(newDir, 'copiable.txt'), copiable, 'utf8');
                         console.log(chalk.green('\nSuccess! File is saved to "' + dirDate + '/result.csv".'));
 
                         console.log('\nCopy pastable data to clipboard?');
